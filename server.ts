@@ -22,5 +22,5 @@ app.get('/ejs', (req, res) => {
 
 
 app.listen(port,()=>{
-    console.log(`El servidor se encuentra corriendo http://localhost:${port}`)
+    console.log(`El servidor se encuentra corriendo http://localhost:${port} 🤪`)
 })

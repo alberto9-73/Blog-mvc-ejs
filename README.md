@@ -39,3 +39,7 @@ test-mvc-express/
 		"dev": "nodemon server.ts"
 ```
 * Crear repositorio en git con github Desktop
+Clonar proyecto
+Instalar depencias npm install
+Configurar variables de entorno en el archivo .env 
+Ejecutar docker-compose up -d
