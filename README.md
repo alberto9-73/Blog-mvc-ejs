@@ -43,3 +43,4 @@ Clonar proyecto
 Instalar depencias npm install
 Configurar variables de entorno en el archivo .env 
 Ejecutar docker-compose up -d
+++++++++++++
