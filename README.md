@@ -44,3 +44,7 @@ Instalar depencias npm install
 Configurar variables de entorno en el archivo .env 
 Ejecutar docker-compose up -d
 ++++++++++++
+### Instalacion de typeORM
+```npm install typeorm --save```
+```npm install reflect-metadata --save```
+```npm install mysql2 --save```

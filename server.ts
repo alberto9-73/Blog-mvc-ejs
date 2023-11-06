@@ -1,6 +1,19 @@
 import express from'express';
 import path from 'path';
 import dotenv from'dotenv';
+import { dbcontext } from './src/db/dbcontex';
+import { TypeORMError } from 'typeorm/error';
+
+process.env.TZ = 'America/Argentina/Buenos_Aires';
+dotenv.config();
+dbcontext
+	.initialize()
+	.then(() => {})
+	.catch((err: TypeORMError) => {
+		console.error(`Error al iniciar la base de datos: ${err.message}`);
+	});
+
+
 
 dotenv.config()
 
